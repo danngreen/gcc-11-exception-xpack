@@ -2,6 +2,7 @@ extern "C" void __libc_init_array();
 
 extern "C" void Reset_Handler() { 
 	__libc_init_array();
+	while(true);
 }
 
 // Stubs:
